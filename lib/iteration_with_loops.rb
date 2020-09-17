@@ -7,7 +7,7 @@ while row_index < src.length do
   element_index = 0
   lowest_value_element = ""
   while element_index < src[row_index].length do
-    if src[row_index][element_index] < minNo
+    if src[row_index][element_index] <= src[row_index][element_index].min
     lowest_value_element = src[row_index][element_index]
   end
     element_index += 1
